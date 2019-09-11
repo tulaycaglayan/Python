@@ -167,6 +167,3 @@ def arrayPairs(arr):
    
 print(arrayPairs([5,6,4,5,6,5,3,3,2,2]))
 
-
-#%%    
-
