@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Mar  5 12:10:24 2019
-
 @author: tulay.caglayan
 """
 
