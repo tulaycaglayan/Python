@@ -162,6 +162,9 @@ val_loss = history.history['val_loss']
 
 epochs = range(1, len(acc) + 1)
 
+plt.figure(figsize=(10,5))
+plt.subplot(1,2,1)
+
 # "bo" is for "blue dot"
 plt.plot(epochs, loss, 'bo', label='Training loss')
       
@@ -172,9 +175,8 @@ plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.legend()
 
-plt.show()
+plt.subplot(1,2,2)
 
-plt.clf()   # clear figure
 acc_values = history_dict['acc']
 val_acc_values = history_dict['val_acc']
 
